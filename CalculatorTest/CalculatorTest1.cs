@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CalculatorTest
 {
     [TestClass]
-    public class UnitTest1
+    public class CalculatorTest1
     {
 
 
@@ -38,7 +38,7 @@ namespace CalculatorTest
 
             var result = num1 - num2;
 
-            Assert.AreEqual(result, calc.Substract(num1, num2));
+            Assert.AreEqual(result, calc.Subtract(num1, num2));
         }
 
         [TestMethod]
